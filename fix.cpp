@@ -30,3 +30,7 @@ int main(){
 	cout <<endl<<"Jam Weker "<< (jamWeker.merk) <<" Harganya : Rp. "<<(jamWeker.harga)<<endl;
 	jamWeker.bersuara("kriinggg");
 }
+
+void jam::bersuara(string bunyi){
+	cout << "Bunyinya "<<bunyi<< " !!"<<endl;
+}
